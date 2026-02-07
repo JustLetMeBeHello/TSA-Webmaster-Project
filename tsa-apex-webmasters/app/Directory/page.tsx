@@ -1,16 +1,15 @@
 import React from "react";
 import Card from "@/Components/Card";
+import {communityResources} from "@/data/resources";
+import Searchbar from "@/Components/Searchbar";
 export default function Page() {
   return (
     <main className="p-8">
-      <h1 className="text-3xl font-bold">Page Title</h1>
-      <p className="mt-4">Content coming soon for the TSA judges.</p>
-      <Card
-        title="Sample Resource"
-        category="Category 1"
-        description="This is a description of the resource. Content coming soon"
-        location="Location 1"
-      />
+      <h1 className="text-3xl font-bold">Directory</h1>
+      <p className="mt-4">This is a small list of community resources</p>
+      <Searchbar />
+
+
     </main>
   );
 }

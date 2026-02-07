@@ -2,8 +2,11 @@ import Link from 'next/link';
 
 export default function Navbar() {
     return (
-        <nav className="bg-gray-800 p-4">
-            <ul className="flex space-x-4">
+        // Added 'rounded-lg' for visible rounded corners
+        <nav className="bg-green-700 p-4 rounded-lg">
+            {/* Added 'justify-center' to center items horizontally */}
+            <ul className="flex justify-center space-x-6 text-white font-medium">
+
                 <li>
                     <Link href="/" className="text-white hover:text-blue-400">
                         Home
@@ -11,17 +14,17 @@ export default function Navbar() {
                 </li>
                 <li>
                     <Link href="/Directory" className="text-white hover:text-blue-400">
+                        Directory
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/About" className="text-white hover:text-blue-400">
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link href="/services" className="text-white hover:text-blue-400">
-                        Services
-                    </Link>
-                </li>
-                <li>
-                    <Link href="/citations" className="text-white hover:text-blue-400">
-                        Contact
+                    <Link href="/Citations" className="text-white hover:text-blue-400">
+                        Citations
                     </Link>
                 </li>
             </ul>

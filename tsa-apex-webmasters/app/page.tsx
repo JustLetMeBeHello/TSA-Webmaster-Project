@@ -3,8 +3,18 @@ import Image from "next/image";
 export default function Home() {
   return ( <div>
       <main className="p-8">
-        <h1 className="text-3xl font-bold">Welcome to the TSA Apex Webmasters Site</h1>
-        <p className="mt-4">This site serves as a resource hub for TSA judges and members involved in web development projects. Explore the directory and citations sections for valuable information and tools.</p>
+        <h1 className="text-3xl font-bold">Welcome to the Apex Community Hub</h1>
+        <p className="mt-4">Apex Community is a space built to connect, support, and empower our community. We bring people higher to share ideas, collaborate to build projects, and build a safe and happy environment.</p>
+        <p className="mt-4">
+          Our goal is to strengthen connections among individuals living in the community and help them feel more included. We do this by providing accessible information about community services, local festivals, and support events that bring people closer together.
+        </p>
+        <p className="mt-4">
+          We believe that strong communities are built on inclusion, collaboration, and care — and that everyone deserves a place where they feel informed, supported, and connected.
+        </p>
+        <div className="mt-4">
+          <p className="text-gray-700 mb-4">If you have any resources you would like to add, please fill out the form below:</p>
+          <a href="https://forms.gle/C65YaqKgy2c3Mzvn8" className="text-blue-500 hover:underline">Google Form</a>
+        </div>
       </main>
   </div>
 

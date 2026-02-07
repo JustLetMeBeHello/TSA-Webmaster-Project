@@ -13,11 +13,6 @@ export default function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/About" className="text-white hover:text-blue-400">
-                        About
-                    </Link>
-                </li>
-                <li>
                     <Link href="/Directory" className="text-white hover:text-blue-400">
                         Directory
                     </Link>
